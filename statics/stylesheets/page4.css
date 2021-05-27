@@ -1,0 +1,213 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+ul, li, a{
+  text-decoration:none !important;
+  list-style:none !important;
+  color: #000;
+}
+
+body{
+  font-family: 'Noto Sans KR', sans-serif !important;
+	font-weight: 400;
+  line-height: 1.5;
+}
+/* header.css */
+header{
+  position: absolute;
+  width: 100%;
+  height: 86px;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(58, 41, 41, 0.25);
+  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > .wrap {
+  display: flex;
+}
+
+
+header > .wrap > h1 {
+  width: 281px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 67px;
+  text-align: center;
+  letter-spacing: -0.1em;
+}
+
+header > .wrap > ul{
+  align-items: center;
+  display: flex;
+}
+
+header > .wrap > ul > li{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  /* identical to box height */
+  text-align: center;
+  margin-right: 75px;
+}
+
+header > .wrap > ul > li :hover{
+  text-shadow: #C4C4C4 1px 0 10px;
+}
+
+/* content.css */
+.wrapper{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+}
+.content{
+  margin-top: 86px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.content-title-wrap{
+  width: 100%;
+  max-width: 1200px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 135px;
+}
+
+.content-title > span{
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 48px;
+text-align: center;
+color: #000000;
+}
+
+.brand-btn-bar > .brand-line{
+  background: #E2E2E2;
+  max-width: 900px;
+  width: 100%;
+  height: 5px;
+}
+
+.brand-list-index{
+  width: 100%;
+  max-width: 900px;
+  height: 50px;
+  position: relative;
+}
+
+.brand-list-index > span{
+font-size: 14px;
+line-height: 19px;
+
+}
+.brand-list-index>span:first-child{
+  position: absolute;
+  right: 153px;
+  top:25px;
+}
+.brand-list-index>span:last-child{
+  position: absolute;
+  right:60px;
+  top:25px;
+}
+.brand-btn-bar > .brand-btn-zone{
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 24px;
+}
+
+.brand-btn-bar > .brand-btn-zone > .brand-btn{
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:1px solid rgba(196, 196, 196, 0.34);
+  margin-right:85px;
+}
+
+.brand-btn-bar > .brand-btn-zone > .brand-btn:hover{
+  box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+.brand-btn-bar > .brand-btn-zone > .brand-btn:last-child{
+  margin-right:0px !important;
+}
+
+.brand-list{
+
+}
+
+.brand-list > .list-box{
+  padding:25px;
+  display: flex;
+  align-items: center;
+}
+
+.brand-list > .list-box:hover{
+  background: #DDDDDD;
+}
+
+.rank{
+width: 44px;
+height: 44px;
+margin-right: 56px;
+text-align: center;
+line-height: 44px;
+}
+
+.gold{
+  border-radius: 24px;
+  background: #FFBC38;
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.15);
+  color: #FFF;
+}
+
+.silver{
+  border-radius: 24px;
+  background: #CCCCCC;
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.15);
+  color: #FFF;
+}
+
+.bronze{
+  border-radius: 24px;
+  background: #DBAD82;
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.15);
+  color: #FFF;
+}
+
+.list-box >
+.contest-img,
+.contest-info,
+.contest-time,
+.contest-rank{
+  margin-right: 38px;
+}
+.contest-name{
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 1.5;
+}
+.list-line{
+height: 1px;
+width: 100%;
+max-width: 900px;
+background:#E2E2E2;
+}
+

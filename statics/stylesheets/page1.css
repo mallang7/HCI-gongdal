@@ -209,7 +209,11 @@ button {
 .contest-box {
   width: 250px;
   height: 400px;
-  padding-right: 10%;
+  margin-right: 20px;
+}
+
+.page6_link {
+  padding-right: 0px;
 }
 
 .contest-img {
@@ -303,7 +307,7 @@ button {
   width: 104px;
   height: 18px;
   left: 25px;
-  top: 480px;
+  top: 505px;
 
   font-family: Noto Sans;
   font-style: normal;
@@ -320,7 +324,7 @@ button {
   width: 104px;
   height: 27px;
   left: 12px;
-  top: 491px;
+  top: 516px;
 
   font-family: Noto Sans;
   font-style: normal;
